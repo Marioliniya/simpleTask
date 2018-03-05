@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4017A9E99DCBF037791FE1 /* libPods-GameWorldsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB30A428D6D2E736C32A70C /* libPods-GameWorldsTests.a */; };
+		8406C182204D585E009FFCC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C181204D585E009FFCC8 /* AppDelegate.m */; };
+		8406C188204D585E009FFCC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8406C186204D585E009FFCC8 /* Main.storyboard */; };
+		8406C18A204D585E009FFCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8406C189204D585E009FFCC8 /* Assets.xcassets */; };
+		8406C18D204D585E009FFCC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8406C18B204D585E009FFCC8 /* LaunchScreen.storyboard */; };
+		8406C190204D585E009FFCC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C18F204D585E009FFCC8 /* main.m */; };
+		8406C19A204D585E009FFCC8 /* GameWorldsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C199204D585E009FFCC8 /* GameWorldsTests.m */; };
+		8406C1A5204D585E009FFCC8 /* GameWorldsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C1A4204D585E009FFCC8 /* GameWorldsUITests.m */; };
+		8458ABA1204D596D002C207A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA0204D596D002C207A /* LoginViewController.m */; };
+		8458ABA4204D5984002C207A /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA3204D5984002C207A /* RequestManager.m */; };
+		8458ABA8204D5DA0002C207A /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA7204D5DA0002C207A /* TextField.m */; };
+		8458ABAB204D62E1002C207A /* GameWorldsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABAA204D62E1002C207A /* GameWorldsViewController.m */; };
+		8458ABAE204D6387002C207A /* TextTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABAD204D6387002C207A /* TextTableCell.m */; };
+		B315026C382AD07C6B3236DC /* libPods-GameWorlds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B288DF0FAE89D5D69ED49B /* libPods-GameWorlds.a */; };
+		C2A8B82E52E510B0C555B4C9 /* libPods-GameWorldsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAD6BE54D23C899CF0A15E5 /* libPods-GameWorldsUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8406C196204D585E009FFCC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8406C175204D585E009FFCC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8406C17C204D585E009FFCC8;
+			remoteInfo = GameWorlds;
+		};
+		8406C1A1204D585E009FFCC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8406C175204D585E009FFCC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8406C17C204D585E009FFCC8;
+			remoteInfo = GameWorlds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D137DB153785504D4013D44 /* Pods-GameWorldsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameWorldsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameWorldsTests/Pods-GameWorldsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1824E91476478BDF9EEDC8B7 /* Pods-GameWorldsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameWorldsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameWorldsTests/Pods-GameWorldsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BFA134DA79A4326BE6FBB18 /* Pods-GameWorlds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameWorlds.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameWorlds/Pods-GameWorlds.release.xcconfig"; sourceTree = "<group>"; };
+		4EB30A428D6D2E736C32A70C /* libPods-GameWorldsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameWorldsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5710910563605B49331EA27F /* Pods-GameWorldsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameWorldsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameWorldsUITests/Pods-GameWorldsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82A0939B075FE0CF228E37FC /* Pods-GameWorldsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameWorldsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameWorldsUITests/Pods-GameWorldsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8406C17D204D585E009FFCC8 /* GameWorlds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameWorlds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8406C180204D585E009FFCC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8406C181204D585E009FFCC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8406C187204D585E009FFCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8406C189204D585E009FFCC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8406C18C204D585E009FFCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8406C18E204D585E009FFCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8406C18F204D585E009FFCC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8406C195204D585E009FFCC8 /* GameWorldsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameWorldsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8406C199204D585E009FFCC8 /* GameWorldsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWorldsTests.m; sourceTree = "<group>"; };
+		8406C19B204D585E009FFCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8406C1A0204D585E009FFCC8 /* GameWorldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameWorldsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8406C1A4204D585E009FFCC8 /* GameWorldsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWorldsUITests.m; sourceTree = "<group>"; };
+		8406C1A6204D585E009FFCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8458AB9F204D596D002C207A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8458ABA0204D596D002C207A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8458ABA2204D5984002C207A /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		8458ABA3204D5984002C207A /* RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		8458ABA6204D5DA0002C207A /* TextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		8458ABA7204D5DA0002C207A /* TextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextField.m; sourceTree = "<group>"; };
+		8458ABA9204D62E1002C207A /* GameWorldsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameWorldsViewController.h; sourceTree = "<group>"; };
+		8458ABAA204D62E1002C207A /* GameWorldsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWorldsViewController.m; sourceTree = "<group>"; };
+		8458ABAC204D6387002C207A /* TextTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextTableCell.h; sourceTree = "<group>"; };
+		8458ABAD204D6387002C207A /* TextTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextTableCell.m; sourceTree = "<group>"; };
+		93B288DF0FAE89D5D69ED49B /* libPods-GameWorlds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameWorlds.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7292BF1CEE87EC009E07D7 /* Pods-GameWorlds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameWorlds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameWorlds/Pods-GameWorlds.debug.xcconfig"; sourceTree = "<group>"; };
+		DBAD6BE54D23C899CF0A15E5 /* libPods-GameWorldsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameWorldsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8406C17A204D585E009FFCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315026C382AD07C6B3236DC /* libPods-GameWorlds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406C192204D585E009FFCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4017A9E99DCBF037791FE1 /* libPods-GameWorldsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406C19D204D585E009FFCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A8B82E52E510B0C555B4C9 /* libPods-GameWorldsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7225A267DF6E7F010FFCC171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B288DF0FAE89D5D69ED49B /* libPods-GameWorlds.a */,
+				4EB30A428D6D2E736C32A70C /* libPods-GameWorldsTests.a */,
+				DBAD6BE54D23C899CF0A15E5 /* libPods-GameWorldsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8406C174204D585E009FFCC8 = {
+			isa = PBXGroup;
+			children = (
+				8406C17F204D585E009FFCC8 /* GameWorlds */,
+				8406C198204D585E009FFCC8 /* GameWorldsTests */,
+				8406C1A3204D585E009FFCC8 /* GameWorldsUITests */,
+				8406C17E204D585E009FFCC8 /* Products */,
+				E44D294AE48482D3BE144205 /* Pods */,
+				7225A267DF6E7F010FFCC171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8406C17E204D585E009FFCC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8406C17D204D585E009FFCC8 /* GameWorlds.app */,
+				8406C195204D585E009FFCC8 /* GameWorldsTests.xctest */,
+				8406C1A0204D585E009FFCC8 /* GameWorldsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8406C17F204D585E009FFCC8 /* GameWorlds */ = {
+			isa = PBXGroup;
+			children = (
+				8406C180204D585E009FFCC8 /* AppDelegate.h */,
+				8406C181204D585E009FFCC8 /* AppDelegate.m */,
+				8458AB9D204D5944002C207A /* Model */,
+				8458AB9E204D594C002C207A /* Views */,
+				8458AB9C204D5937002C207A /* ViewControllers */,
+				8406C186204D585E009FFCC8 /* Main.storyboard */,
+				8406C189204D585E009FFCC8 /* Assets.xcassets */,
+				8406C18B204D585E009FFCC8 /* LaunchScreen.storyboard */,
+				8406C18E204D585E009FFCC8 /* Info.plist */,
+				8406C18F204D585E009FFCC8 /* main.m */,
+			);
+			path = GameWorlds;
+			sourceTree = "<group>";
+		};
+		8406C198204D585E009FFCC8 /* GameWorldsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8406C199204D585E009FFCC8 /* GameWorldsTests.m */,
+				8406C19B204D585E009FFCC8 /* Info.plist */,
+			);
+			path = GameWorldsTests;
+			sourceTree = "<group>";
+		};
+		8406C1A3204D585E009FFCC8 /* GameWorldsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8406C1A4204D585E009FFCC8 /* GameWorldsUITests.m */,
+				8406C1A6204D585E009FFCC8 /* Info.plist */,
+			);
+			path = GameWorldsUITests;
+			sourceTree = "<group>";
+		};
+		8458AB9C204D5937002C207A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8458AB9F204D596D002C207A /* LoginViewController.h */,
+				8458ABA0204D596D002C207A /* LoginViewController.m */,
+				8458ABA9204D62E1002C207A /* GameWorldsViewController.h */,
+				8458ABAA204D62E1002C207A /* GameWorldsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8458AB9D204D5944002C207A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8458ABA5204D5A2B002C207A /* Managers */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8458AB9E204D594C002C207A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8458ABA6204D5DA0002C207A /* TextField.h */,
+				8458ABA7204D5DA0002C207A /* TextField.m */,
+				8458ABAF204D638F002C207A /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8458ABA5204D5A2B002C207A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8458ABA2204D5984002C207A /* RequestManager.h */,
+				8458ABA3204D5984002C207A /* RequestManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8458ABAF204D638F002C207A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8458ABAC204D6387002C207A /* TextTableCell.h */,
+				8458ABAD204D6387002C207A /* TextTableCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E44D294AE48482D3BE144205 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA7292BF1CEE87EC009E07D7 /* Pods-GameWorlds.debug.xcconfig */,
+				2BFA134DA79A4326BE6FBB18 /* Pods-GameWorlds.release.xcconfig */,
+				0D137DB153785504D4013D44 /* Pods-GameWorldsTests.debug.xcconfig */,
+				1824E91476478BDF9EEDC8B7 /* Pods-GameWorldsTests.release.xcconfig */,
+				82A0939B075FE0CF228E37FC /* Pods-GameWorldsUITests.debug.xcconfig */,
+				5710910563605B49331EA27F /* Pods-GameWorldsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8406C17C204D585E009FFCC8 /* GameWorlds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8406C1A9204D585E009FFCC8 /* Build configuration list for PBXNativeTarget "GameWorlds" */;
+			buildPhases = (
+				9453EECFDEE6FFE40923330B /* [CP] Check Pods Manifest.lock */,
+				8406C179204D585E009FFCC8 /* Sources */,
+				8406C17A204D585E009FFCC8 /* Frameworks */,
+				8406C17B204D585E009FFCC8 /* Resources */,
+				32E6F83F4D307570E4803579 /* [CP] Embed Pods Frameworks */,
+				DA26745075D70D1BF49BFA87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameWorlds;
+			productName = GameWorlds;
+			productReference = 8406C17D204D585E009FFCC8 /* GameWorlds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8406C194204D585E009FFCC8 /* GameWorldsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8406C1AC204D585E009FFCC8 /* Build configuration list for PBXNativeTarget "GameWorldsTests" */;
+			buildPhases = (
+				34223EFBFBFDAB7B03C34250 /* [CP] Check Pods Manifest.lock */,
+				8406C191204D585E009FFCC8 /* Sources */,
+				8406C192204D585E009FFCC8 /* Frameworks */,
+				8406C193204D585E009FFCC8 /* Resources */,
+				946D8802BD20A905E0CAEA2F /* [CP] Embed Pods Frameworks */,
+				840C820E7AEA91D3325CBD62 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8406C197204D585E009FFCC8 /* PBXTargetDependency */,
+			);
+			name = GameWorldsTests;
+			productName = GameWorldsTests;
+			productReference = 8406C195204D585E009FFCC8 /* GameWorldsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8406C19F204D585E009FFCC8 /* GameWorldsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8406C1AF204D585E009FFCC8 /* Build configuration list for PBXNativeTarget "GameWorldsUITests" */;
+			buildPhases = (
+				B6DD9A014807FE9BD537CE47 /* [CP] Check Pods Manifest.lock */,
+				8406C19C204D585E009FFCC8 /* Sources */,
+				8406C19D204D585E009FFCC8 /* Frameworks */,
+				8406C19E204D585E009FFCC8 /* Resources */,
+				64312EBA41DF8EFFF0E82CD6 /* [CP] Embed Pods Frameworks */,
+				E7A337768FA99C97CE0075EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8406C1A2204D585E009FFCC8 /* PBXTargetDependency */,
+			);
+			name = GameWorldsUITests;
+			productName = GameWorldsUITests;
+			productReference = 8406C1A0204D585E009FFCC8 /* GameWorldsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8406C175204D585E009FFCC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8406C17C204D585E009FFCC8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8406C194204D585E009FFCC8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8406C17C204D585E009FFCC8;
+					};
+					8406C19F204D585E009FFCC8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8406C17C204D585E009FFCC8;
+					};
+				};
+			};
+			buildConfigurationList = 8406C178204D585E009FFCC8 /* Build configuration list for PBXProject "GameWorlds" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8406C174204D585E009FFCC8;
+			productRefGroup = 8406C17E204D585E009FFCC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8406C17C204D585E009FFCC8 /* GameWorlds */,
+				8406C194204D585E009FFCC8 /* GameWorldsTests */,
+				8406C19F204D585E009FFCC8 /* GameWorldsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8406C17B204D585E009FFCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8406C18D204D585E009FFCC8 /* LaunchScreen.storyboard in Resources */,
+				8406C18A204D585E009FFCC8 /* Assets.xcassets in Resources */,
+				8406C188204D585E009FFCC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406C193204D585E009FFCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406C19E204D585E009FFCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32E6F83F4D307570E4803579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameWorlds/Pods-GameWorlds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34223EFBFBFDAB7B03C34250 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameWorldsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64312EBA41DF8EFFF0E82CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameWorldsUITests/Pods-GameWorldsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840C820E7AEA91D3325CBD62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameWorldsTests/Pods-GameWorldsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9453EECFDEE6FFE40923330B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameWorlds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946D8802BD20A905E0CAEA2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameWorldsTests/Pods-GameWorldsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DD9A014807FE9BD537CE47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameWorldsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA26745075D70D1BF49BFA87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GameWorlds/Pods-GameWorlds-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameWorlds/Pods-GameWorlds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A337768FA99C97CE0075EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameWorldsUITests/Pods-GameWorldsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8406C179204D585E009FFCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8406C190204D585E009FFCC8 /* main.m in Sources */,
+				8458ABAB204D62E1002C207A /* GameWorldsViewController.m in Sources */,
+				8406C182204D585E009FFCC8 /* AppDelegate.m in Sources */,
+				8458ABA8204D5DA0002C207A /* TextField.m in Sources */,
+				8458ABAE204D6387002C207A /* TextTableCell.m in Sources */,
+				8458ABA1204D596D002C207A /* LoginViewController.m in Sources */,
+				8458ABA4204D5984002C207A /* RequestManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406C191204D585E009FFCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8406C19A204D585E009FFCC8 /* GameWorldsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406C19C204D585E009FFCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8406C1A5204D585E009FFCC8 /* GameWorldsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8406C197204D585E009FFCC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8406C17C204D585E009FFCC8 /* GameWorlds */;
+			targetProxy = 8406C196204D585E009FFCC8 /* PBXContainerItemProxy */;
+		};
+		8406C1A2204D585E009FFCC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8406C17C204D585E009FFCC8 /* GameWorlds */;
+			targetProxy = 8406C1A1204D585E009FFCC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8406C186204D585E009FFCC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8406C187204D585E009FFCC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8406C18B204D585E009FFCC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8406C18C204D585E009FFCC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8406C1A7204D585E009FFCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8406C1A8204D585E009FFCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8406C1AA204D585E009FFCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7292BF1CEE87EC009E07D7 /* Pods-GameWorlds.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9WZ8C34T2;
+				INFOPLIST_FILE = GameWorlds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AM-.GameWorlds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8406C1AB204D585E009FFCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFA134DA79A4326BE6FBB18 /* Pods-GameWorlds.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9WZ8C34T2;
+				INFOPLIST_FILE = GameWorlds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AM-.GameWorlds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8406C1AD204D585E009FFCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D137DB153785504D4013D44 /* Pods-GameWorldsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9WZ8C34T2;
+				INFOPLIST_FILE = GameWorldsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AM-.GameWorldsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameWorlds.app/GameWorlds";
+			};
+			name = Debug;
+		};
+		8406C1AE204D585E009FFCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1824E91476478BDF9EEDC8B7 /* Pods-GameWorldsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9WZ8C34T2;
+				INFOPLIST_FILE = GameWorldsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AM-.GameWorldsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameWorlds.app/GameWorlds";
+			};
+			name = Release;
+		};
+		8406C1B0204D585E009FFCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A0939B075FE0CF228E37FC /* Pods-GameWorldsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9WZ8C34T2;
+				INFOPLIST_FILE = GameWorldsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AM-.GameWorldsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameWorlds;
+			};
+			name = Debug;
+		};
+		8406C1B1204D585E009FFCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5710910563605B49331EA27F /* Pods-GameWorldsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9WZ8C34T2;
+				INFOPLIST_FILE = GameWorldsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AM-.GameWorldsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameWorlds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8406C178204D585E009FFCC8 /* Build configuration list for PBXProject "GameWorlds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8406C1A7204D585E009FFCC8 /* Debug */,
+				8406C1A8204D585E009FFCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8406C1A9204D585E009FFCC8 /* Build configuration list for PBXNativeTarget "GameWorlds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8406C1AA204D585E009FFCC8 /* Debug */,
+				8406C1AB204D585E009FFCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8406C1AC204D585E009FFCC8 /* Build configuration list for PBXNativeTarget "GameWorldsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8406C1AD204D585E009FFCC8 /* Debug */,
+				8406C1AE204D585E009FFCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8406C1AF204D585E009FFCC8 /* Build configuration list for PBXNativeTarget "GameWorldsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8406C1B0204D585E009FFCC8 /* Debug */,
+				8406C1B1204D585E009FFCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8406C175204D585E009FFCC8 /* Project object */;
+}
