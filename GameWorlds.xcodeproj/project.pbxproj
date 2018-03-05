@@ -15,6 +15,7 @@
 		8406C190204D585E009FFCC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C18F204D585E009FFCC8 /* main.m */; };
 		8406C19A204D585E009FFCC8 /* GameWorldsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C199204D585E009FFCC8 /* GameWorldsTests.m */; };
 		8406C1A5204D585E009FFCC8 /* GameWorldsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C1A4204D585E009FFCC8 /* GameWorldsUITests.m */; };
+		842E0F53204D778100C0A4AE /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E0F52204D778100C0A4AE /* ContentManager.m */; };
 		8458ABA1204D596D002C207A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA0204D596D002C207A /* LoginViewController.m */; };
 		8458ABA4204D5984002C207A /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA3204D5984002C207A /* RequestManager.m */; };
 		8458ABA8204D5DA0002C207A /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA7204D5DA0002C207A /* TextField.m */; };
@@ -62,6 +63,8 @@
 		8406C1A0204D585E009FFCC8 /* GameWorldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameWorldsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8406C1A4204D585E009FFCC8 /* GameWorldsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWorldsUITests.m; sourceTree = "<group>"; };
 		8406C1A6204D585E009FFCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842E0F51204D778100C0A4AE /* ContentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentManager.h; sourceTree = "<group>"; };
+		842E0F52204D778100C0A4AE /* ContentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
 		8458AB9F204D596D002C207A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		8458ABA0204D596D002C207A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8458ABA2204D5984002C207A /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 			children = (
 				8458ABA2204D5984002C207A /* RequestManager.h */,
 				8458ABA3204D5984002C207A /* RequestManager.m */,
+				842E0F51204D778100C0A4AE /* ContentManager.h */,
+				842E0F52204D778100C0A4AE /* ContentManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -525,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8406C190204D585E009FFCC8 /* main.m in Sources */,
+				842E0F53204D778100C0A4AE /* ContentManager.m in Sources */,
 				8458ABAB204D62E1002C207A /* GameWorldsViewController.m in Sources */,
 				8406C182204D585E009FFCC8 /* AppDelegate.m in Sources */,
 				8458ABA8204D5DA0002C207A /* TextField.m in Sources */,
