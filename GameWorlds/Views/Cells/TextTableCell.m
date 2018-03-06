@@ -7,10 +7,11 @@
 //
 
 #import "TextTableCell.h"
+#import "GameWorld.h"
 
 @interface TextTableCell()
 
-
+@property (weak, nonatomic) IBOutlet UILabel* nameLable;
 
 @end
 
@@ -31,8 +32,9 @@
 
 #pragma mark - Setup
 
-- (void)setupwith:(id)object{
+- (void)setupWith:(GameWorld*)gameWorld{
     
+    self.nameLable.text = gameWorld.name;
 }
 
 @end

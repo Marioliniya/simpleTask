@@ -15,4 +15,8 @@ typedef enum {
 
 @interface TextField : UITextField
 
+@property (assign, nonatomic) BOOL atChek;
+
+- (BOOL)chekEmailAddress:(NSString *)string;
+
 @end

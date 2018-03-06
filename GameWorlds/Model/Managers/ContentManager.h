@@ -10,4 +10,9 @@
 
 @interface ContentManager : NSObject
 
+@property (strong, nonatomic) NSArray* content;
+
++ (ContentManager*)shareManager;
+- (void)getContentWithCompletion:(void(^)(BOOL success, NSArray* worlds, NSError* error))completion;
+
 @end

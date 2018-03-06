@@ -8,8 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+@class AuthManager;
+
 @interface RequestManager : NSObject
 
 + (RequestManager*)sharedManager;
+
+- (void)getGameWorldsWithLogin:(NSString*)login password:(NSString*)password
+                  onCompletion:(void(^)(BOOL success, NSArray* worlds, NSError* error))completion;
+
 
 @end

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GameWorldsViewController : UITableViewController
+@interface GameWorldsViewController : UIViewController
+
+@property (strong, nonatomic) NSArray* content;
 
 @end

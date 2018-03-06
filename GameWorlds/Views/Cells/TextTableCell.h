@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class GameWorld;
 @interface TextTableCell : UITableViewCell
 
-- (void)setupwith:(id)object;
+- (void)setupWith:(GameWorld*)gameWorld;
 
 @end

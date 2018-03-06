@@ -16,6 +16,10 @@
 		8406C19A204D585E009FFCC8 /* GameWorldsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C199204D585E009FFCC8 /* GameWorldsTests.m */; };
 		8406C1A5204D585E009FFCC8 /* GameWorldsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406C1A4204D585E009FFCC8 /* GameWorldsUITests.m */; };
 		842E0F53204D778100C0A4AE /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E0F52204D778100C0A4AE /* ContentManager.m */; };
+		842E0F56204D90B800C0A4AE /* GameWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E0F55204D90B800C0A4AE /* GameWorld.m */; };
+		842E0F59204D93B000C0A4AE /* AuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E0F58204D93B000C0A4AE /* AuthManager.m */; };
+		842E0F5D204DB60F00C0A4AE /* UIAlertController+Showable.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E0F5C204DB60F00C0A4AE /* UIAlertController+Showable.m */; };
+		842E0F60204DD41900C0A4AE /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E0F5F204DD41900C0A4AE /* Utils.m */; };
 		8458ABA1204D596D002C207A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA0204D596D002C207A /* LoginViewController.m */; };
 		8458ABA4204D5984002C207A /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA3204D5984002C207A /* RequestManager.m */; };
 		8458ABA8204D5DA0002C207A /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458ABA7204D5DA0002C207A /* TextField.m */; };
@@ -65,6 +69,14 @@
 		8406C1A6204D585E009FFCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842E0F51204D778100C0A4AE /* ContentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentManager.h; sourceTree = "<group>"; };
 		842E0F52204D778100C0A4AE /* ContentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
+		842E0F54204D90B800C0A4AE /* GameWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
+		842E0F55204D90B800C0A4AE /* GameWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWorld.m; sourceTree = "<group>"; };
+		842E0F57204D93B000C0A4AE /* AuthManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthManager.h; sourceTree = "<group>"; };
+		842E0F58204D93B000C0A4AE /* AuthManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthManager.m; sourceTree = "<group>"; };
+		842E0F5B204DB60F00C0A4AE /* UIAlertController+Showable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Showable.h"; sourceTree = "<group>"; };
+		842E0F5C204DB60F00C0A4AE /* UIAlertController+Showable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Showable.m"; sourceTree = "<group>"; };
+		842E0F5E204DD41900C0A4AE /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		842E0F5F204DD41900C0A4AE /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		8458AB9F204D596D002C207A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		8458ABA0204D596D002C207A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8458ABA2204D5984002C207A /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
@@ -145,6 +157,7 @@
 			children = (
 				8406C180204D585E009FFCC8 /* AppDelegate.h */,
 				8406C181204D585E009FFCC8 /* AppDelegate.m */,
+				842E0F61204DDE9B00C0A4AE /* Utility */,
 				8458AB9D204D5944002C207A /* Model */,
 				8458AB9E204D594C002C207A /* Views */,
 				8458AB9C204D5937002C207A /* ViewControllers */,
@@ -175,9 +188,28 @@
 			path = GameWorldsUITests;
 			sourceTree = "<group>";
 		};
+		842E0F5A204DB5B800C0A4AE /* AlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				842E0F5B204DB60F00C0A4AE /* UIAlertController+Showable.h */,
+				842E0F5C204DB60F00C0A4AE /* UIAlertController+Showable.m */,
+			);
+			path = AlertViewController;
+			sourceTree = "<group>";
+		};
+		842E0F61204DDE9B00C0A4AE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				842E0F5E204DD41900C0A4AE /* Utils.h */,
+				842E0F5F204DD41900C0A4AE /* Utils.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		8458AB9C204D5937002C207A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				842E0F5A204DB5B800C0A4AE /* AlertViewController */,
 				8458AB9F204D596D002C207A /* LoginViewController.h */,
 				8458ABA0204D596D002C207A /* LoginViewController.m */,
 				8458ABA9204D62E1002C207A /* GameWorldsViewController.h */,
@@ -190,6 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				8458ABA5204D5A2B002C207A /* Managers */,
+				842E0F54204D90B800C0A4AE /* GameWorld.h */,
+				842E0F55204D90B800C0A4AE /* GameWorld.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,6 +241,8 @@
 		8458ABA5204D5A2B002C207A /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				842E0F57204D93B000C0A4AE /* AuthManager.h */,
+				842E0F58204D93B000C0A4AE /* AuthManager.m */,
 				8458ABA2204D5984002C207A /* RequestManager.h */,
 				8458ABA3204D5984002C207A /* RequestManager.m */,
 				842E0F51204D778100C0A4AE /* ContentManager.h */,
@@ -529,7 +565,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842E0F5D204DB60F00C0A4AE /* UIAlertController+Showable.m in Sources */,
 				8406C190204D585E009FFCC8 /* main.m in Sources */,
+				842E0F59204D93B000C0A4AE /* AuthManager.m in Sources */,
+				842E0F60204DD41900C0A4AE /* Utils.m in Sources */,
+				842E0F56204D90B800C0A4AE /* GameWorld.m in Sources */,
 				842E0F53204D778100C0A4AE /* ContentManager.m in Sources */,
 				8458ABAB204D62E1002C207A /* GameWorldsViewController.m in Sources */,
 				8406C182204D585E009FFCC8 /* AppDelegate.m in Sources */,
